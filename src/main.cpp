@@ -1,13 +1,21 @@
 #include <Arduino.h>
 
+/**
+ * @brief Esta es la funcion de configuracion del dispositivo
+ * 
+ */
 void setup() {
-  pinMode(2, OUTPUT);
+  pinMode(2, OUTPUT);  //Coloco el pin 2 como salida
 }
 
+
+/**
+ * @brief Esta funcion es un bucle infinito que corresponde al main()
+ * 
+ */
 void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(2,HIGH);
-  delay(500);
-  digitalWrite(2,LOW);
-  delay(500);
+  digitalWrite(2,HIGH);  //Enciende el LED
+  delay(500);  //Espero 500ms
+  digitalWrite(2,LOW); //Apaga el Led
+  delay(500);  //Espero 500ms
 }
