@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 /**
- * @brief Esta es la funcion de configuracion del dispositivo
+ * @juanalejandro Esta es la funcion de configuracion del dispositivo
  * 
  */
 void setup() {
